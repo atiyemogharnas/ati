@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+.navbar{
+    background: rgb(6, 0, 87);
+}
+.nav-link{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    margin-right: 1em;
+}
+.navbar-brand{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.header{
+    background-image: url(flowers.jpg);
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,0.5);
+}
+.discription h1{
+    color: rgb(243, 196, 235);
+    text-align: center;
+}
+.discription p{
+    color: beige;
+    font-size: 20px;
+    line-height: 1.5 px;
+    text-align: center;
+}
+.discription{
+    left: 45%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-55%)
+
+}
+.feature{
+    position: relative;
+    padding: 1em;
+    margin: 4em auto;
+}
+.feature-title{
+    color: black;
+    margin-bottom: 20px;
+}
+.table-bordered{
+    background-color: rgb(181, 166, 235);
+
+}
+tr{
+    text-align: center;
+    font-size: 20px;
+    
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+strong{
+    color: rgb(3, 3, 66);
+}
